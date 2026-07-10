@@ -95,10 +95,6 @@ public/
   sample-data/  Bundled demo CSV (Superstore sample)
 ```
 
-## Design
-
-The visual identity uses a deep indigo primary (`#22235F`) for buttons, the logo, and primary chart series; pink (`#EB68A0`) for the headline profit figures (Total Profit, Profit Margin, Top Region) and as a chart accent; and purple (`#7A4D9F`) alternating with pink in the category profitability chart. A light mint tint (`#A8DACD`) underlies neutral surfaces such as borders and secondary badges. Cards and buttons are sharp-edged rather than rounded. Defined as CSS custom properties in `src/index.css`.
-
 ## Why this project?
 
 Business leaders often receive large CSV exports that require manual analysis before meaningful decisions can be made. Executive Sales Brief reduces this effort by automatically converting raw sales data into business metrics, executive findings, and actionable recommendations.
@@ -106,4 +102,3 @@ Business leaders often receive large CSV exports that require manual analysis be
 ## Notes
 
 - `lib/analysis/insights.ts` and `lib/analysis/recommendations.ts` contain the rule engines behind the Executive Brief and Recommended Actions sections. Both are pure functions of the loaded rows, no hardcoded text.
-- There is no dark mode toggle in the UI. The color tokens for a dark theme exist in `src/index.css` but aren't currently reachable from the app.
