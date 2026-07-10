@@ -3,9 +3,10 @@
   "description": "An executive decision support tool that transforms raw sales CSV exports into a business performance report, with KPIs, charts, and rule-based executive findings and recommendations.",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/lulwah-mohammed/executive-sales-brief.git"
-},
+    "type": "git",
+    "url": "https://github.com/lulwah-mohammed/executive-sales-brief.git"
+  },
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
