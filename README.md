@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-Open the printed local URL (typically `http://localhost:5173`) in a browser.
+Open the printed local URL in a browser.
 
 Other scripts:
 
