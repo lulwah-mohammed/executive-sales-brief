@@ -4,6 +4,14 @@
 
 An executive decision support tool. Transform a raw sales CSV into an executive-ready business performance report in seconds.
 
+> **Project Evolution**
+>
+> Executive Sales Brief has evolved into **DecisionHub**, a complete Commercial Decision Intelligence Platform.
+>
+> The analytics engine originally developed in this project now powers the **Performance Brief** module inside DecisionHub, alongside Business Health scoring, a Decision Center, Commercial Analysis modules, and executive reporting.
+>
+> **DecisionHub:** https://decisionhub0.vercel.app/
+
 ## What it does
 
 Upload a sales CSV (or load the bundled demo dataset) and the app will:
@@ -98,6 +106,12 @@ public/
 ## Why this project?
 
 Business leaders often receive large CSV exports that require manual analysis before meaningful decisions can be made. Executive Sales Brief reduces this effort by automatically converting raw sales data into business metrics, executive findings, and actionable recommendations.
+
+## Status
+
+This project is no longer under active development and is preserved as the original foundation of DecisionHub.
+
+For the latest version with significantly expanded functionality, visit the DecisionHub repository.
 
 ## Notes
 
